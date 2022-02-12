@@ -1,0 +1,196 @@
+
+#titulo {
+    font-family: sans-serif;
+    color: #666661;
+    margin: 0 0 20px;
+	margin-left: 15%;
+	padding: 0;
+	margin-top: 30px;
+
+	
+}
+
+fieldset {
+    border: 0;
+}
+
+body{
+    background-color: #9ddeff;
+    font-family: sans-serif;
+    font-size: 1em; 
+    margin-left: 36%;
+    margin-top: 12%;
+	color: #bdbdbd;	
+}
+input{
+    font-family: sans-serif;
+    font-size: 1.3em;  
+    border-radius: 5px;
+	margin-left: 10%;	
+	
+}
+select{
+    font-family: sans-serif;
+    font-size: 1.25em; 
+    margin-left: 10%;
+    margin-top: 0%;
+	color: #bdbdbd;
+	border-radius: 5px;
+}
+textarea{
+    font-family: sans-serif;
+    font-size: 1.3em;  
+    border-radius: 5px;
+	margin-left: 5.7%;
+	
+}
+button{
+    font-family: sans-serif;  
+    border-radius: 5px;
+	margin-left: 36%;
+	margin-top: 2%;
+}
+
+.campo {
+    margin-bottom: 0.5em;
+}
+
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo select, .campo textarea {
+    padding: 0.4em;
+	padding-right: 4em;
+    border: 1px;
+    display: block;
+	border-style: groove;
+
+}
+.campo select{
+    padding-right: 2.8em;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.botao {
+	
+    font-size: 1.5em;
+    background: #0076bc;
+	color: white;
+    border: 0;
+    margin-bottom: 1em;
+    color: ;
+    padding: 0.4em 0.6em;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate( -49%, -50%)
+}
+#quadrado {
+    position: absolute;
+	top: 15%;
+	left: 25%;
+	transform: traslate( -50%, -50%);
+	width: 850px;
+	height: 550px;
+	background: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.1);
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	border-radius: 5px;
+}
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: 135px;
+  bottom: 50px;
+  left: 80px;
+  font-size: 9px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 11px;
+  width: 200px;
+  height: 35px;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 80px;
+  top: 145px;
+  transition: 0.2s ease all;
+}
+input:focus ~ .floating-label1,
+input:not(:focus):valid ~ .floating-label1{
+  top: 135px;
+  bottom: 50px;
+  left: 450px;
+  font-size: 9px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 200px;
+  height: 35px;
+}
+
+.floating-label1 {
+  position: absolute;
+  pointer-events: none;
+  left: 450px;
+  top: 145px;
+  transition: 0.2s ease all;
+}
+input:focus ~ .floating-label2,
+input:not(:focus):valid ~ .floating-label2{
+  top: 200px;
+  bottom: 50px;
+  left: 80px;
+  font-size: 9px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 200px;
+  height: 35px;
+}
+
+.floating-label2 {
+  position: absolute;
+  pointer-events: none;
+  left: 80px;
+  top: 210px;
+  transition: 0.2s ease all;
+}
+textarea:focus ~ .floating-label3,
+textarea:not(:focus):valid ~ .floating-label3{
+  top: 280px;
+  bottom: 50px;
+  left: 80px;
+  font-size: 9px;
+  opacity: 1;
+}
+
+.textareaText {
+  font-size: 14px;
+  width: 200px;
+  height: 35px;
+}
+
+.floating-label3 {
+  position: absolute;
+  pointer-events: none;
+  left: 80px;
+  top: 290px;
+  transition: 0.2s ease all;
+}
